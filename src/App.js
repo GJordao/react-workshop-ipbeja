@@ -39,7 +39,6 @@ class App extends Component {
     }
 
     render() {
-        const messages = this.state.messages;
         return this.state.isUserNameFinal ? (
             <div>
                 {this.state.messages.map((message, index) => {
